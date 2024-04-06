@@ -147,13 +147,13 @@ if (number1>0){
 
 // .16 Multiplication Table
 let number2 = 2;
-console.log(`${number2*1}`);
-console.log(`${number2*2}`);
-console.log(`${number2*3}`);
-console.log(`${number2*4}`);
-console.log(`${number2*5}`);
-console.log(`${number2*6}`);
-console.log(`${number2*7}`);
-console.log(`${number2*8}`);
-console.log(`${number2*9}`);
-console.log(`${number2*10}`);
+console.log(`2 * 1 = ${number2*1}`);
+console.log(`2 * 2 = ${number2*2}`);
+console.log(`2 * 3 = ${number2*3}`);
+console.log(`2 * 4 = ${number2*4}`);
+console.log(`2 * 5 = ${number2*5}`);
+console.log(`2 * 6 = ${number2*6}`);
+console.log(`2 * 7 = ${number2*7}`);
+console.log(`2 * 8 = ${number2*8}`);
+console.log(`2 * 9 = ${number2*9}`);
+console.log(`2 * 10 = ${number2*10}`);
