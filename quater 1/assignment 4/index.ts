@@ -9,23 +9,23 @@ num1 = 10;
 num2 = 20;
 // sum
 let sum = num1 + num2;
-console.log(sum); //30
+console.log("sum",sum); //30
 // difference
 let diff = num1 - num2;
-console.log(diff); //-10
+console.log("difference",diff); //-10
 // product
 let product = num1 * num2;
-console.log(product);
+console.log("product",product); //200
 // quotient
 let quotient = num1 / num2;
-console.log(quotient);
+console.log("quotieon",quotient); //0.5
 
 // .3 swapping values
 let a = 1;
 let b = 2;
 a = a + b;
 b = a - b;
-//now the value of a is 3 so we now that
+//now the value of (a) is 3 so 
 a = a - b;
 console.log(a);
 console.log(b);
@@ -89,7 +89,7 @@ if (age >= 18) {
 
 // .11 Grading System
 let score;
-score = 41;
+score = 74;
 if (score >= 90) {
   console.log("you get (A+)");
 } else if (score >= 80) {
