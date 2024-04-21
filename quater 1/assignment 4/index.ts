@@ -9,26 +9,26 @@ num1 = 10;
 num2 = 20;
 // sum
 let sum = num1 + num2;
-console.log("sum",sum); //30
+console.log("sum", sum); //30
 // difference
 let diff = num1 - num2;
-console.log("difference",diff); //-10
+console.log("difference", diff); //-10
 // product
 let product = num1 * num2;
-console.log("product",product); //200
+console.log("product", product); //200
 // quotient
 let quotient = num1 / num2;
-console.log("quotieon",quotient); //0.5
+console.log("quotieon", quotient); //0.5
 
 // .3 swapping values
 let a = 1;
 let b = 2;
 a = a + b;
 b = a - b;
-//now the value of (a) is 3 so 
+//now the value of (a) is 3 so
 a = a - b;
-console.log(a);
-console.log(b);
+console.log("a",a);
+console.log("b",b);
 
 // .4 annotation(typescript)
 let message: string;
@@ -109,12 +109,12 @@ let x, y, z;
 x = 10;
 y = 20;
 z = 30;
-if (x>=y&&x>=z){
-  console.log(`${x} is largest`)
-}else if (y>=x&&y>=z){
-  console.log(`${y} is largest`)
-}else {
-  console.log(`${z} is largest`)
+if (x >= y && x >= z) {
+  console.log(`${x} is largest`);
+} else if (y >= x && y >= z) {
+  console.log(`${y} is largest`);
+} else {
+  console.log(`${z} is largest`);
 }
 
 // .13 Leap Year Checker
@@ -135,25 +135,25 @@ Celsius = ((Fahrenheit - 32) * 5) / 9;
 console.log(Celsius);
 
 // .15 Positive, Negative, or Zero
-let number1:number;
+let number1: number; 
 number1 = 0;
-if (number1>0){
+if (number1 > 0) {
   console.log("positive");
-}else if (number1<0){
-  console.log("negative")
-}else{
+} else if (number1 < 0) {
+  console.log("negative");
+} else {
   console.log("zero");
 }
 
 // .16 Multiplication Table
 let number2 = 2;
-console.log(`2 * 1 = ${number2*1}`);
-console.log(`2 * 2 = ${number2*2}`);
-console.log(`2 * 3 = ${number2*3}`);
-console.log(`2 * 4 = ${number2*4}`);
-console.log(`2 * 5 = ${number2*5}`);
-console.log(`2 * 6 = ${number2*6}`);
-console.log(`2 * 7 = ${number2*7}`);
-console.log(`2 * 8 = ${number2*8}`);
-console.log(`2 * 9 = ${number2*9}`);
-console.log(`2 * 10 = ${number2*10}`);
+console.log(`2 * 1 = ${number2 * 1}`);
+console.log(`2 * 2 = ${number2 * 2}`);
+console.log(`2 * 3 = ${number2 * 3}`);
+console.log(`2 * 4 = ${number2 * 4}`);
+console.log(`2 * 5 = ${number2 * 5}`);
+console.log(`2 * 6 = ${number2 * 6}`);
+console.log(`2 * 7 = ${number2 * 7}`);
+console.log(`2 * 8 = ${number2 * 8}`);
+console.log(`2 * 9 = ${number2 * 9}`);
+console.log(`2 * 10 = ${number2 * 10}`);

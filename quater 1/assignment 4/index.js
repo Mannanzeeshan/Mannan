@@ -24,10 +24,10 @@ let a = 1;
 let b = 2;
 a = a + b;
 b = a - b;
-//now the value of (a) is 3 so 
+//now the value of (a) is 3 so
 a = a - b;
-console.log(a);
-console.log(b);
+console.log("a", a);
+console.log("b", b);
 // .4 annotation(typescript)
 let message;
 // message = 1; (error)
