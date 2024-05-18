@@ -1,5 +1,5 @@
 import inquirer from "inquirer";
-import { sum, sub, mul, dev, power } from "./operators.js";
+import { sum, sub, mul, dev, power, mod } from "./operators.js";
 let answers = await inquirer.prompt([
   {
     name: "num1",
@@ -15,7 +15,7 @@ let answers = await inquirer.prompt([
     type: "list",
     name: "operator",
     message: "chose youre Operators:",
-    choices: ["+", "-", "*", "/", "**"],
+    choices: ["+", "-", "*", "/", "**","%"],
   },
 ]);
 
@@ -34,6 +34,9 @@ if (answers.operator == "+") {
 } else if (answers.operator == "**") {
   console.log("This is power");
   power(answers.num1, answers.num2);
+} else if (answers.operator == "%") {
+  console.log("This is modulo");
+  mod(answers.num1, answers.num2);
 } else {
   console.log("Invalid Operator");
 }

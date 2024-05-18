@@ -14,8 +14,12 @@ function dev(num1, num2) {
     let result = num1 / num2;
     console.log(`devision of ${num1} and ${num2} is ${result}`);
 }
-function mod(num1, num2) {
+function power(num1, num2) {
     let result = num1 ** num2;
-    console.log(`module of ${num1} and ${num2} is ${result}`);
+    console.log(`power of ${num1} and ${num2} is ${result}`);
 }
-export { sum, sub, mul, dev, mod };
+function mod(num1, num2) {
+    let result = num1 % num2;
+    console.log(`modulo of ${num1} and ${num2} is ${result}`);
+}
+export { sum, sub, mul, dev, power, mod };

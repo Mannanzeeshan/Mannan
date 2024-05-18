@@ -18,6 +18,10 @@ function power(num1: number,num2:number){
     let result = num1 ** num2 ;
     console.log(`power of ${num1} and ${num2} is ${result}`);
 }
+function mod(num1: number,num2:number){
+    let result = num1 % num2 ;
+    console.log(`modulo of ${num1} and ${num2} is ${result}`);
+}
 
 
-export {sum,sub,mul,dev,power};
+export {sum,sub,mul,dev,power,mod};
