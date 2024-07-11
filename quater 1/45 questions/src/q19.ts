@@ -1,3 +1,3 @@
-import guestlist from "./q17";
+import guestList from "./q17";
 
-console.log(guestlist.length)
+console.log(guestList.length);

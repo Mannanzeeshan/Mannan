@@ -41,7 +41,7 @@ for (let i = guestList.length - 1; i >= 2; i--) {
 
 console.log("\n\t invitation for remaining guests\n");
 for (let i = 0; i < guestList.length; i++) {
-    console.log(` Hi ${guestList[i]}, I invite you for a dinner at my home`);
-  }
+  console.log(` Hi ${guestList[i]}, I invite you for a dinner at my home`);
+}
 
-export default guestList
+export default guestList;

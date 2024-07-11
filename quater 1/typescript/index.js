@@ -1,5 +1,5 @@
 "use strict";
 let em = "ali";
-let x = "hello";
-let fullname3 = `${em} ${x}`;
-console.log(fullname3);
+for (let i = 0; i < em.length; i++) {
+    console.log(em);
+}

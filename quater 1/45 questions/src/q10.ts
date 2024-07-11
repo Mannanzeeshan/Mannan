@@ -6,8 +6,6 @@ let favoriteNumber: number = 18;
 let message: string = `my favorite number is ${favoriteNumber}`;
 console.log(message);
 
-
-
 // I Store a person’s name in a variable, and print a message to that person using template literals
 const PersonsName = "mannan";
 console.log(

@@ -6,14 +6,14 @@
 
 • Print a second set of invitation messages, one for each person who is still in your list.*/
 
-let guestList:string[]=["usman","humail","ashir"];
-for(let i=0;i<guestList.length;i++){
-    console.log(`Hi ${guestList[i]}, I invite you for a dinner at my home`);
+let guestList: string[] = ["usman", "humail", "ashir"];
+for (let i = 0; i < guestList.length; i++) {
+  console.log(`Hi ${guestList[i]}, I invite you for a dinner at my home`);
 }
-let guestHowCantMakeit:string = guestList[1];
+let guestHowCantMakeit: string = guestList[1];
 console.log(`\n${guestHowCantMakeit}, can't make it to the dinner`);
 
 guestList[1] = "Afaq";
-for(let i=0;i<guestList.length;i++){
-    console.log(`Hi ${guestList[i]}, I invite you for a dinner at my home`);
+for (let i = 0; i < guestList.length; i++) {
+  console.log(`Hi ${guestList[i]}, I invite you for a dinner at my home`);
 }
