@@ -2,6 +2,6 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <a href="/learn next.js/hello-world-01/sample.html">click hear</a>
+   <main className="p-20">step 1 2 3</main>
   );
 }

@@ -1,3 +1,3 @@
 let random;
-random = Math.floor(Math.random()* 10);
+random = Math.floor(Math.random()* 20);
 console.log(random);
